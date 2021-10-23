@@ -1,7 +1,7 @@
-import React from "react";
 import { useAuth0 } from "@auth0/auth0-react";
-import LoginButton from "./loginButton";
-import LogoutButton from "./logoutButton";
+import React from "react";
+import LoginButton from "./LoginButton";
+import LogoutButton from "./LogoutButton";
 
 const AuthButton = () => {
   const { user, isAuthenticated } = useAuth0();
@@ -11,7 +11,9 @@ const AuthButton = () => {
       <div className="flex">
         <a href="/" className="flex mx-2">
           <img
-            className="transition-all w-16 h-16 my-auto rounded-full hover:rounded-xl border-black border-2"
+            className="transition-all
+                        transform w-16 h-16 moverflow-hidden
+                        my-auto rounded-full scale-100 hover:scale-90"
             src={user.picture}
             alt="user icon"
           />{" "}
