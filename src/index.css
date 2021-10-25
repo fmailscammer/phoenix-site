@@ -6,6 +6,11 @@
   .grid-auto-wrap {
     grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
   }
+
+  .logo-color {
+    filter: brightness(0) saturate(100%) invert(72%) sepia(15%) saturate(7486%)
+      hue-rotate(358deg) brightness(100%) contrast(109%);
+  }
 }
 
 body {

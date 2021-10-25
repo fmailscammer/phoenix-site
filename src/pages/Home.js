@@ -1,12 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
     <div>
-      TODO: Create homepage
-      <br />
-      <Link to="/dashboard">Dashboard</Link>
+      <p>
+        This is the home page. It's kinda lame at the moment. Let's fix that!
+      </p>
     </div>
   );
 };
