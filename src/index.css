@@ -28,7 +28,19 @@ code {
 }
 
 .btn {
-  @apply text-white bg-blue-800 rounded-full border-indigo-700 hover:bg-blue-900 hover:border-indigo-900 transition-all;
+  @apply shadow-md py-3 px-6 rounded-md transition-all;
+}
+
+.btn-green {
+  @apply text-white bg-green-500 hover:bg-white hover:text-gray-800;
+}
+
+.btn-blue {
+  @apply text-white bg-blue-800 hover:bg-white hover:text-gray-900;
+}
+
+.btn-white {
+  @apply text-black bg-white hover:bg-blue-800 hover:text-white;
 }
 
 /* width */

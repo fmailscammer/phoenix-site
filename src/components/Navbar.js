@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className="w-16 h-16 py-1 flex logo-color invisible md:visible">
         <img src={Logo} alt="Phoenix Logo" />
       </div>
-      <h1 className="animate__animated animate__fadeInDown font-bold my-auto mx-4 text-blue-800 text-3xl">
+      <h1 className="animate__animated animate__fadeInDown font-bold my-auto mx-4 text-black text-3xl">
         Phoenix
       </h1>
       <div className="my-auto flex justify-end flex-shrink md:flex-1 gap-12 invisible md:visible">

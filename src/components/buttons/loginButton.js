@@ -6,7 +6,7 @@ const LoginButton = () => {
 
   return (
     <button
-      className="w-max h-auto p-4 btn"
+      className="w-max h-auto p-4 btn btn-green"
       onClick={() => loginWithRedirect()}
     >
       Log In With Discord
